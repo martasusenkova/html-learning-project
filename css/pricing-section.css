@@ -1,0 +1,88 @@
+/* ценовая секция  */
+.pricing {
+  margin: 0;
+  padding: 82px 170px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 2px solid rgba(245, 245, 245, 1);
+  text-align: center;
+  width: 370px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pricing__card-title {
+  border: 2px solid rgba(245, 245, 245, 1);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(51, 51, 51, 1);
+  color: white;
+  margin: 0;
+  padding: 15px;
+}
+
+.pricing__price {
+  border: 2px solid rgba(245, 245, 245, 1);
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  background: rgba(51, 51, 51, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 20px;
+}
+
+.pricing__note {
+  border: 2px solid rgba(245, 245, 245, 1);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  background: rgba(51, 51, 51, 1);
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  padding: 10px;
+}
+
+.pricing__cards {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  margin: 0 auto;
+}
+
+.pricing__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: rgba(245, 245, 245, 1);
+}
+
+.pricing__feature {
+  padding: 12px;
+  border-top: 1px solid #eee;
+  color: rgba(134, 135, 139, 1);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.pricing__separator {
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+
+.pricing__subtitle {
+  margin-bottom: 60px;
+}
+
+.pricing__card--highlighted {
+  box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
+  margin-bottom: 20px;
+  margin-top: -20px;
+}

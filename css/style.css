@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+.section {
+  scroll-margin-top: 76px;
+}
+
+/* Заголовки секций */
+.section-title {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Разделители (separator) */
+.section-separator {
+  width: 170px;
+  height: 0;
+  margin: 40px auto 40px auto;
+}
+
+/* Подзаголовки (subtitle) */
+.section-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #86878b;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.button-one:hover {
+  border: 2px solid #ec7979;
+  background-color: transparent;
+  color: #ec7979;
+}
+.button-one:active {
+  border: 2px solid #ab4949;
+  background-color: #ab4949;
+  color: #ffffff;
+}
+.button-two:active {
+  box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
+  background-color: rgba(236, 121, 121, 1);
+}
+.button-two:hover {
+  background-color: #ab4949;
+}
+.button-three:hover {
+  border: 1px solid #000000;
+  background-color: #ab4949;
+  color: #ffffff;
+}
+.button-three:active {
+  background-color: #ec7979;
+  box-shadow: 0px 4px 4px 0px #ab4949;
+  color: #ffffff;
+}
+
+.form__input:focus {
+  color: rgba(236, 121, 121, 1);
+}
+
+.form__input:hover {
+  box-shadow: 0px 2px 4px 0px rgba(171, 73, 73, 1);
+  color: rgba(236, 121, 121, 1);
+}
